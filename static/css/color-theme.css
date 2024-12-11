@@ -1,0 +1,22 @@
+:root {
+  --seashell-25: #0c0c0c;
+  --seashell-50: #f7f8f8;
+  --seashell-card: #ffffff;
+  --seashell-800: #f0f1f2;
+  --seashell-900: #f0f1f2;
+  --seashell-950: #f7f8f8;
+  --blue-600: #2563eb;
+  --red-600: #dc2626;
+}
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --seashell-25: #ffffff;
+    --seashell-50: #0c0c0c;
+    --seashell-card: #121212;
+    --seashell-800: #373b40;
+    --seashell-900: #121212;
+    --seashell-950: #0c0c0c;
+  }
+}

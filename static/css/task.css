@@ -1,0 +1,16 @@
+@import url(./color-theme.css);
+.content {
+  font-size: 16px;
+}
+.task-title {
+  font-size: 26px;
+}
+.task-desc {
+  font-size: 20px;
+}
+.task {
+  padding: 10px;
+}
+.menu-btn-left {
+  background-color: var(--red-600);
+}

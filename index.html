@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="apple-touch-icon" href="/static/img/logo.png" />
+    <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TDO²</title>
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="/static/css/auth.css" />
+  </head>
+  <body>
+    <h1 class="auth">TDO²фикация</h1>
+    <form class="auth" action="/login" method="post">
+      <input type="text" name="login" placeholder="Логин" /><br />
+      <input type="password" name="password" placeholder="Пароль" /><br />
+      <button class="btn-1" id="auth" type="button">Войти</button>
+      <p>или</p>
+      <button class="btn-2" type="button">ВКонтакте</button>
+    </form>
+    <script>
+      document.getElementById("auth").addEventListener("click", function () {
+        window.location.href = "/home.html";
+      });
+    </script>
+  </body>
+</html>
